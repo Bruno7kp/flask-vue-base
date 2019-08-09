@@ -1,29 +1,21 @@
-# flask-vue-base
+# Instalação
 
-## Project setup
-```
-npm install
-```
+Clone o repositório
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+    git clone https://github.com/bruno7kp/flask-vue-base.git
+    
+Crie e ative ambiente virtual
 
-### Compiles and minifies for production
-```
-npm run build
-```
+    cd flask-vue-base
+    python -m venv env
+    env\Scripts\activate
+    
+Instale o Flask e outras bibliotecas
 
-### Run your tests
-```
-npm run test
-```
+    pip install -r requirements.txt
+    
+Rode o programa
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+    set FLASK_ENV='development'
+    set FLASK_DEBUG=1
+    python -m flask run
